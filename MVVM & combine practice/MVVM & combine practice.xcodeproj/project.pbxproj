@@ -107,10 +107,10 @@
 		583F99B82A2DEAEC00BFF82E /* MVVM & combine practice */ = {
 			isa = PBXGroup;
 			children = (
-				583F99F12A2F332B00BFF82E /* Home */,
 				583F99B92A2DEAEC00BFF82E /* AppDelegate.swift */,
 				583F99BB2A2DEAEC00BFF82E /* SceneDelegate.swift */,
 				583F99E92A2DEB2F00BFF82E /* Login */,
+				583F99F12A2F332B00BFF82E /* Home */,
 				583F99BF2A2DEAEC00BFF82E /* Main.storyboard */,
 				583F99C22A2DEAED00BFF82E /* Assets.xcassets */,
 				583F99C42A2DEAED00BFF82E /* LaunchScreen.storyboard */,

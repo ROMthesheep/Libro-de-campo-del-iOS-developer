@@ -94,13 +94,14 @@ class LoginView: UIViewController {
     }
     
     func createBinding() {
+//        En primer lugar establecemos la conexion de los textfields(view) al LoginViewModel, pero lo vinculamos desde la variable local que tenemos, xq la visa posee al viewmodel. V owns VM
         emailTextField.textPublisher
             .assign(to: \LoginViewModel.email, on: loginViewModel)
             .store(in: &cancellabes)
         passwordTextField.textPublisher
             .assign(to: \LoginViewModel.password, on: loginViewModel)
             .store(in: &cancellabes)
-        
+//        Ahora asignamos los comportamientos de la vista a los distintos estados del VM, una vez mas, usamos la variable local del scope de la vista, todo queda dentro de su marco de responsabilidad
         loginViewModel.$isEnabled
             .assign(to: \.isEnabled, on: actionButton)
             .store(in: &cancellabes)
@@ -112,7 +113,7 @@ class LoginView: UIViewController {
         loginViewModel.$errorMessage
             .assign(to: \.text!, on: errorLabel)
             .store(in: &cancellabes)
-        
+//        En este caso la difencia es que no estamos asignado, sino reaccionando a un cambio donde no nos importa el valor, sino el cambio o actualizacion del objeto observado.
         loginViewModel.$userModel.sink { [weak self] _ in
             let homeView = HomeView()
             self?.present(homeView, animated: true)
@@ -122,6 +123,9 @@ class LoginView: UIViewController {
 
 extension UITextField {
     var textPublisher: AnyPublisher<String, Never> {
+//        nos creamos un publisher que va a estar pendiente de los cambios del texto y extrae del notification el objeto textfield y mapea su texto para que nos devuelva un string.
+//        Como no puede fallar, definimos el error como Never
+//        el eraseToAnyPublisher lo ponemos para exponer esta cadena de eventos a sus subcriptores con el tipo que nos conviene
         return NotificationCenter.default.publisher(for: UITextField.textDidChangeNotification, object: self)
             .map { notification in return (notification.object as? UITextField)?.text ?? ""}
             .eraseToAnyPublisher()
