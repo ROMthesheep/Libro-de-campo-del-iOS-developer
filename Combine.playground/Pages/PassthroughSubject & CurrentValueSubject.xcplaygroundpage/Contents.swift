@@ -3,6 +3,14 @@
 import Foundation
 import Combine
 
+/**
+ Un PassthroughSubject es como un timbre
+    Cuando alguien pulsa el timbre, solo te llega la informacion de que alguien ha
+    pulsado el interruptior si ya estas ahi
+ Un CurrentValueSubject es como un interruptor de una luz
+    Si alquien enciende la luz cuando no estas en casa, cuando vulvas sabras que alguien pulso el interruptor.
+ */
+
 // PassthroughSubject
 struct Weather {
     let weatherPublisher = PassthroughSubject<Int, Error>()

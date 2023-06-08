@@ -7,5 +7,9 @@
         <page name='Flatmap y catch'/>
         <page name='Future'/>
         <page name='URLSession'/>
+        <page name='Cancellation &amp; Memory Management'/>
+        <page name='Custom UIKit Publishers'/>
+        <page name='Scheduling'/>
+        <page name='Extensiones de Foundation para combine'/>
     </pages>
 </playground>
