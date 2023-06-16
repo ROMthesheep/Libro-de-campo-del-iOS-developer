@@ -7,5 +7,13 @@
         <page name='Creacionales -- Prototype'/>
         <page name='Creacionales -- Singleton'/>
         <page name='Creacionales -- Guided Singleton'/>
+        <page name='Creacionales -- Object Pool'/>
+        <page name='Creacionales -- Inyeccion de dependencias'/>
+        <page name='Estructurales -- Adapter'/>
+        <page name='Estructurales -- Bridge'/>
+        <page name='Estructurales -- Composite'/>
+        <page name='Estructurales -- Decorator - Wrapper'/>
+        <page name='Estructurales -- Facade'/>
+        <page name='Estructurales -- Flyweight'/>
     </pages>
 </playground>
