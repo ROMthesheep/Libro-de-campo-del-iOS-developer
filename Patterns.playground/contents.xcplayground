@@ -15,5 +15,7 @@
         <page name='Estructurales -- Decorator - Wrapper'/>
         <page name='Estructurales -- Facade'/>
         <page name='Estructurales -- Flyweight'/>
+        <page name='Estructurales -- Proxy'/>
+        <page name='Comportamiento -- RuleEngine'/>
     </pages>
 </playground>
