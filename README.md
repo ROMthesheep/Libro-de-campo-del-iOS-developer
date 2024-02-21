@@ -7,3 +7,4 @@ fuentes y bases para algunos ficheros:
 * [AvdLee](https://github.com/AvdLee)
 * [refactoring guru](https://refactoring.guru/es)
 * [eleev](https://github.com/eleev)
+* [kamranahmedse](https://github.com/kamranahmedse/)
