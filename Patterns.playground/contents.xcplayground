@@ -17,5 +17,8 @@
         <page name='Estructurales -- Flyweight'/>
         <page name='Estructurales -- Proxy'/>
         <page name='Comportamiento -- RuleEngine'/>
+        <page name='Comportamiento -- Memento'/>
+        <page name='Estructurales -- TypeEnsure'/>
+        <page name='Comportamiento -- Strategy'/>
     </pages>
 </playground>

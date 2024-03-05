@@ -3,7 +3,7 @@
 import Foundation
 
 /**
- Utiliza ek patrón Rule Engine cuando necesites de forma masiva hacer una accionncuando se den unas condiciones. Este diseño permite definir tareas complejas fuera de la logica principal.
+ Utiliza el patrón Rule Engine cuando necesites de forma masiva hacer una accionncuando se den unas condiciones. Este diseño permite definir tareas complejas fuera de la logica principal.
  Es una herramienta poderosa para encapsular, aislar y proteger procesos ligados al tipo de input que se da sin exponerlo al dueño del mismo.
  El patron cuenta con tres partes diferenciadas, Las reglas, el motor y los datos.
 La dinammica principal es, el motor mediante unas reglas ejecuta unna serie de procesos contra una entidad y devuelve el producto de ese  proceso.

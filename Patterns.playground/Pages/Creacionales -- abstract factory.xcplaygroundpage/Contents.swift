@@ -48,13 +48,13 @@ protocol AbstractProductA {
 
 class ConcreteProductA1: AbstractProductA {
     func accion() -> String {
-        "The result from product A1"
+        "Accion de A1"
     }
 }
 
 class ConcreteProductA2: AbstractProductA {
     func accion() -> String {
-        "The result from product A2"
+        "Accion de A2"
     }
 }
 
@@ -65,21 +65,21 @@ protocol AbstractProductB {
 
 class ConcreteProductB1: AbstractProductB {
     func extraAccion(_ extraProduct: AbstractProductA) -> String {
-        "the result of product B with \(extraProduct.accion())"
+        "Accion de B con \(extraProduct.accion())"
     }
     
     func accion() -> String {
-        "The result from product B1"
+        "Accion de B1"
     }
 }
 
 class ConcreteProductB2: AbstractProductB {
     func extraAccion(_ extraProduct: AbstractProductA) -> String {
-        "the result of product B with \(extraProduct.accion())"
+        "Accion de B con \(extraProduct.accion())"
     }
     
     func accion() -> String {
-        "The result from product B2"
+        "Accion de B2"
     }
 }
 
