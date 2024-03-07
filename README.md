@@ -1,4 +1,5 @@
-# iOS-PlayGrounds-and-toy-projects
+# Libro de campo del iOS developer
+#### Pero por una vez en castellano
 
 Repo de consulta y experimentacion de distintos mini proyectos.
 
