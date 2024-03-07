@@ -8,3 +8,7 @@ fuentes y bases para algunos ficheros:
 * [refactoring guru](https://refactoring.guru/es)
 * [eleev](https://github.com/eleev)
 * [kamranahmedse](https://github.com/kamranahmedse/)
+
+
+### TO-DO
+- research better example for multicast delegate
