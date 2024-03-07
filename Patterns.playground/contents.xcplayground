@@ -21,5 +21,9 @@
         <page name='Estructurales -- TypeEnsure'/>
         <page name='Comportamiento -- Strategy'/>
         <page name='Estructurales -- Coordinator'/>
+        <page name='Estructurales -- Multicast Delegate'/>
+        <page name='Comportamiento -- Chain of responsability'/>
+        <page name='Comportamiento -- Command'/>
+        <page name='Comportamiento -- Interpreter'/>
     </pages>
 </playground>
