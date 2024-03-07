@@ -20,5 +20,6 @@
         <page name='Comportamiento -- Memento'/>
         <page name='Estructurales -- TypeEnsure'/>
         <page name='Comportamiento -- Strategy'/>
+        <page name='Estructurales -- Coordinator'/>
     </pages>
 </playground>
