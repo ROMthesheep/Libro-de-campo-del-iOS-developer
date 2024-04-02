@@ -25,5 +25,8 @@
         <page name='Comportamiento -- Chain of responsability'/>
         <page name='Comportamiento -- Command'/>
         <page name='Comportamiento -- Interpreter'/>
+        <page name='Comportamiento -- Iterator'/>
+        <page name='Comportamiento -- Mediator'/>
+        <page name='Comportamiento -- Observer'/>
     </pages>
 </playground>

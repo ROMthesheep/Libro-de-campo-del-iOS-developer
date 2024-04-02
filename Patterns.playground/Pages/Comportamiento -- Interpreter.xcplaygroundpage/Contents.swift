@@ -12,6 +12,9 @@ import Foundation
  */
 
 protocol Expression {
+    
+    /// <#Description#>
+    /// - Returns: <#description#>
     func interpret() -> Double
 }
 
@@ -21,7 +24,7 @@ class Number: Expression {
     init(_ value: Double) {
         self.value = value
     }
-
+    
     func interpret() -> Double {
         value
     }
