@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5803CDF62BBD64C20021B991 /* BankDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5803CDF52BBD64C20021B991 /* BankDashboard.swift */; };
+		581BF0AF2BBFFE14007283DC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0AE2BBFFE14007283DC /* Account.swift */; };
+		581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0B02BC00272007283DC /* AccountListViewModel.swift */; };
+		581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F37382BBEAC18003D6B09 /* LoginView.swift */; };
+		581F373E2BBEAD61003D6B09 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373D2BBEAD61003D6B09 /* Webservice.swift */; };
+		581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */; };
 		583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */; };
 		583E9FD72BBAA4DE00499644 /* OutlineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */; };
 		583E9FD92BBAB51700499644 /* DisclouseGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD82BBAB51700499644 /* DisclouseGroups.swift */; };
@@ -55,12 +61,17 @@
 		58E7D9BE2BB1B720005C0406 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9BD2BB1B720005C0406 /* SpringAnimation.swift */; };
 		58E7D9C02BB1B971005C0406 /* NotificationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9BF2BB1B971005C0406 /* NotificationAnimation.swift */; };
 		58E7D9C22BB1C391005C0406 /* CombiningAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9C12BB1C391005C0406 /* CombiningAnimations.swift */; };
-		58E7D9C72BB1C7E3005C0406 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9C62BB1C7E3005C0406 /* Webservice.swift */; };
+		58E7D9C72BB1C7E3005C0406 /* StocksWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9C62BB1C7E3005C0406 /* StocksWebservice.swift */; };
 		58E7D9CA2BB1C898005C0406 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9C92BB1C898005C0406 /* Stock.swift */; };
 		58E7D9CD2BB1CA2C005C0406 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9CC2BB1CA2C005C0406 /* StockListViewModel.swift */; };
 		58E7D9CF2BB1CA5A005C0406 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9CE2BB1CA5A005C0406 /* StockViewModel.swift */; };
 		58E7D9D22BB1CFDB005C0406 /* StockAppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E7D9D12BB1CFDB005C0406 /* StockAppMainView.swift */; };
 		58FA29012BB2C75F004266A5 /* NewsArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA29002BB2C75F004266A5 /* NewsArticleView.swift */; };
+		58FECBA02BBBFECA007F48B7 /* SimpleMatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FECB9F2BBBFECA007F48B7 /* SimpleMatchedGeometry.swift */; };
+		58FECBA22BBC0832007F48B7 /* MusicPlayerEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FECBA12BBC0832007F48B7 /* MusicPlayerEffect.swift */; };
+		58FECBA42BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FECBA32BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift */; };
+		58FECBAB2BBC49FE007F48B7 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FECBAA2BBC49FE007F48B7 /* CreditCard.swift */; };
+		58FECBAD2BBC4B64007F48B7 /* CreditrCardViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FECBAC2BBC4B64007F48B7 /* CreditrCardViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +92,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5803CDF52BBD64C20021B991 /* BankDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDashboard.swift; sourceTree = "<group>"; };
+		581BF0AE2BBFFE14007283DC /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		581BF0B02BC00272007283DC /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
+		581F37382BBEAC18003D6B09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		581F373D2BBEAD61003D6B09 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreWrapper.swift; sourceTree = "<group>"; };
 		583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroup.swift; sourceTree = "<group>"; };
 		583E9FD82BBAB51700499644 /* DisclouseGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclouseGroups.swift; sourceTree = "<group>"; };
@@ -133,12 +150,17 @@
 		58E7D9BD2BB1B720005C0406 /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 		58E7D9BF2BB1B971005C0406 /* NotificationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAnimation.swift; sourceTree = "<group>"; };
 		58E7D9C12BB1C391005C0406 /* CombiningAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningAnimations.swift; sourceTree = "<group>"; };
-		58E7D9C62BB1C7E3005C0406 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		58E7D9C62BB1C7E3005C0406 /* StocksWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksWebservice.swift; sourceTree = "<group>"; };
 		58E7D9C92BB1C898005C0406 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		58E7D9CC2BB1CA2C005C0406 /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
 		58E7D9CE2BB1CA5A005C0406 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
 		58E7D9D12BB1CFDB005C0406 /* StockAppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAppMainView.swift; sourceTree = "<group>"; };
 		58FA29002BB2C75F004266A5 /* NewsArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleView.swift; sourceTree = "<group>"; };
+		58FECB9F2BBBFECA007F48B7 /* SimpleMatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMatchedGeometry.swift; sourceTree = "<group>"; };
+		58FECBA12BBC0832007F48B7 /* MusicPlayerEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerEffect.swift; sourceTree = "<group>"; };
+		58FECBA32BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HideSentitiveData - Redacted.swift"; sourceTree = "<group>"; };
+		58FECBAA2BBC49FE007F48B7 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		58FECBAC2BBC4B64007F48B7 /* CreditrCardViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditrCardViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +188,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5803CDF42BBD64970021B991 /* bank app main screen */ = {
+			isa = PBXGroup;
+			children = (
+				5803CDF52BBD64C20021B991 /* BankDashboard.swift */,
+			);
+			path = "bank app main screen";
+			sourceTree = "<group>";
+		};
+		581F37372BBEAB7B003D6B09 /* LoginWithAPIAndJWT */ = {
+			isa = PBXGroup;
+			children = (
+				581F373C2BBEAD53003D6B09 /* Models */,
+				581F373B2BBEAD41003D6B09 /* Viewmodels */,
+				581F373A2BBEAD21003D6B09 /* Services */,
+				581F37382BBEAC18003D6B09 /* LoginView.swift */,
+			);
+			path = LoginWithAPIAndJWT;
+			sourceTree = "<group>";
+		};
+		581F373A2BBEAD21003D6B09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				581F373D2BBEAD61003D6B09 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		581F373B2BBEAD41003D6B09 /* Viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */,
+				581BF0B02BC00272007283DC /* AccountListViewModel.swift */,
+			);
+			path = Viewmodels;
+			sourceTree = "<group>";
+		};
+		581F373C2BBEAD53003D6B09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				581BF0AE2BBFFE14007283DC /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		583E9FDA2BBAB63400499644 /* Movie Catalog */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +246,8 @@
 		583E9FE82BBADF2E00499644 /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
+				58FECB9F2BBBFECA007F48B7 /* SimpleMatchedGeometry.swift */,
+				58FECBA12BBC0832007F48B7 /* MusicPlayerEffect.swift */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -199,6 +267,7 @@
 				583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */,
 				583E9FD82BBAB51700499644 /* DisclouseGroups.swift */,
 				583E9FE62BBAD1CF00499644 /* NotificationCenterForegroundExecution.swift */,
+				58FECBA32BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -227,7 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				583E9FE82BBADF2E00499644 /* Geometry */,
-				58E7D9C32BB1C5B9005C0406 /* App POCS */,
+				58E7D9C32BB1C5B9005C0406 /* screen POCS */,
 				58E209692BA87F2E006B02FF /* Modals */,
 				58E209672BA87F12006B02FF /* Gestures */,
 				58E209652BA87EDC006B02FF /* State and Binding */,
@@ -348,13 +417,16 @@
 			path = Modals;
 			sourceTree = "<group>";
 		};
-		58E7D9C32BB1C5B9005C0406 /* App POCS */ = {
+		58E7D9C32BB1C5B9005C0406 /* screen POCS */ = {
 			isa = PBXGroup;
 			children = (
+				581F37372BBEAB7B003D6B09 /* LoginWithAPIAndJWT */,
+				5803CDF42BBD64970021B991 /* bank app main screen */,
+				58FECBA92BBC49E7007F48B7 /* Credit card viewer */,
 				583E9FDA2BBAB63400499644 /* Movie Catalog */,
 				58E7D9C42BB1C5DD005C0406 /* Stocks Apps */,
 			);
-			path = "App POCS";
+			path = "screen POCS";
 			sourceTree = "<group>";
 		};
 		58E7D9C42BB1C5DD005C0406 /* Stocks Apps */ = {
@@ -371,7 +443,7 @@
 		58E7D9C52BB1C7CE005C0406 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				58E7D9C62BB1C7E3005C0406 /* Webservice.swift */,
+				58E7D9C62BB1C7E3005C0406 /* StocksWebservice.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -404,6 +476,15 @@
 				58FA29002BB2C75F004266A5 /* NewsArticleView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		58FECBA92BBC49E7007F48B7 /* Credit card viewer */ = {
+			isa = PBXGroup;
+			children = (
+				58FECBAA2BBC49FE007F48B7 /* CreditCard.swift */,
+				58FECBAC2BBC4B64007F48B7 /* CreditrCardViewer.swift */,
+			);
+			path = "Credit card viewer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,7 +623,7 @@
 				58E7D9D22BB1CFDB005C0406 /* StockAppMainView.swift in Sources */,
 				5849DFC62BAADBC600C17051 /* Tap.swift in Sources */,
 				58BBD7502BB1E75800403307 /* SearchView.swift in Sources */,
-				58E7D9C72BB1C7E3005C0406 /* Webservice.swift in Sources */,
+				58E7D9C72BB1C7E3005C0406 /* StocksWebservice.swift in Sources */,
 				5852022F2BB43EA3004D67CC /* PinnedViewGrid.swift in Sources */,
 				583E9FD92BBAB51700499644 /* DisclouseGroups.swift in Sources */,
 				58E209702BA88C86006B02FF /* Binding Examples.swift in Sources */,
@@ -553,15 +634,20 @@
 				58BBD7522BB1F4E300403307 /* StockListView.swift in Sources */,
 				5849DFCE2BAAF59C00C17051 /* Rotation.swift in Sources */,
 				58E7D9C02BB1B971005C0406 /* NotificationAnimation.swift in Sources */,
+				58FECBA22BBC0832007F48B7 /* MusicPlayerEffect.swift in Sources */,
 				585202252BB42317004D67CC /* ProgressBar.swift in Sources */,
 				58E209392BA87E79006B02FF /* Item.swift in Sources */,
+				58FECBAB2BBC49FE007F48B7 /* CreditCard.swift in Sources */,
 				58E209722BA89930006B02FF /* Enviroment Example.swift in Sources */,
+				581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */,
 				583E9FDE2BBAB7BA00499644 /* MovieStore.swift in Sources */,
 				58E7D9542BB17649005C0406 /* Custom line graph.swift in Sources */,
 				5849DFD62BAB39BA00C17051 /* SimpleModal.swift in Sources */,
 				587B2AC12BAD89AB000DD3F3 /* Pull Image From camera.swift in Sources */,
+				581BF0AF2BBFFE14007283DC /* Account.swift in Sources */,
 				583E9FE02BBABABA00499644 /* MovieCatalogView.swift in Sources */,
 				583E9FE72BBAD1CF00499644 /* NotificationCenterForegroundExecution.swift in Sources */,
+				58FECBA02BBBFECA007F48B7 /* SimpleMatchedGeometry.swift in Sources */,
 				58E2096C2BA880E2006B02FF /* FilteringListSearchable.swift in Sources */,
 				58E7D9CD2BB1CA2C005C0406 /* StockListViewModel.swift in Sources */,
 				5849DFD42BAB2D7A00C17051 /* NotificationSettings.swift in Sources */,
@@ -571,19 +657,25 @@
 				583E9FE52BBAC65B00499644 /* URLImage.swift in Sources */,
 				58E7D9CF2BB1CA5A005C0406 /* StockViewModel.swift in Sources */,
 				587B2AC32BADB122000DD3F3 /* SearchInList.swift in Sources */,
+				58FECBA42BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift in Sources */,
+				58FECBAD2BBC4B64007F48B7 /* CreditrCardViewer.swift in Sources */,
 				5852022D2BB430FC004D67CC /* GridsLayouts.swift in Sources */,
 				5852022B2BB42826004D67CC /* DatePicker.swift in Sources */,
 				583E9FD72BBAA4DE00499644 /* OutlineGroup.swift in Sources */,
+				581F373E2BBEAD61003D6B09 /* Webservice.swift in Sources */,
 				58E7D9CA2BB1C898005C0406 /* Stock.swift in Sources */,
 				58E2096E2BA88550006B02FF /* State Examples.swift in Sources */,
 				583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */,
 				58E7D9C22BB1C391005C0406 /* CombiningAnimations.swift in Sources */,
 				586D48332BB2232B0081061E /* Article.swift in Sources */,
+				581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */,
 				58E7D9BC2BB19D2B005C0406 /* BasicAnimation.swift in Sources */,
 				58FA29012BB2C75F004266A5 /* NewsArticleView.swift in Sources */,
 				58E7D9BE2BB1B720005C0406 /* SpringAnimation.swift in Sources */,
+				5803CDF62BBD64C20021B991 /* BankDashboard.swift in Sources */,
 				5849DFCC2BAAE36200C17051 /* Magnify.swift in Sources */,
 				585202272BB4249C004D67CC /* Map.swift in Sources */,
+				581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */,
 				58E209352BA87E79006B02FF /* SwiftUI_PillsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

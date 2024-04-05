@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Webservice {
+class StocksWebservice {
     
     func getNews(completion: @escaping (([Article]?) -> Void)) {
         makeRequest(stringURL: "https://island-bramble.glitch.me/top-news", type: [Article]?.self) { stoks in

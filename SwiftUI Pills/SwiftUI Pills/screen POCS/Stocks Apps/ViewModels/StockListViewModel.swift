@@ -19,7 +19,7 @@ class StockListViewModel: ObservableObject {
     }
     
     private func fetchStocks() {
-        Webservice().getStocks { stocks in
+        StocksWebservice().getStocks { stocks in
             guard let stocks else { return }
             DispatchQueue.main.async {
                 self.stocks = stocks.map(StockViewModel.init)
@@ -28,7 +28,7 @@ class StockListViewModel: ObservableObject {
     }
     
     private func fetchNews() {
-        Webservice().getNews { articles in
+        StocksWebservice().getNews { articles in
             guard let articles else { return }
             DispatchQueue.main.async {
                 self.articles = articles.map(ArticleViewModel.init)
