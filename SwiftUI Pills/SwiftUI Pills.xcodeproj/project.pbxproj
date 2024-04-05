@@ -10,6 +10,7 @@
 		5803CDF62BBD64C20021B991 /* BankDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5803CDF52BBD64C20021B991 /* BankDashboard.swift */; };
 		581BF0AF2BBFFE14007283DC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0AE2BBFFE14007283DC /* Account.swift */; };
 		581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0B02BC00272007283DC /* AccountListViewModel.swift */; };
+		581BF0B42BC01061007283DC /* Server.js in Resources */ = {isa = PBXBuildFile; fileRef = 581BF0B32BC01061007283DC /* Server.js */; };
 		581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F37382BBEAC18003D6B09 /* LoginView.swift */; };
 		581F373E2BBEAD61003D6B09 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373D2BBEAD61003D6B09 /* Webservice.swift */; };
 		581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */; };
@@ -95,6 +96,7 @@
 		5803CDF52BBD64C20021B991 /* BankDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDashboard.swift; sourceTree = "<group>"; };
 		581BF0AE2BBFFE14007283DC /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		581BF0B02BC00272007283DC /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
+		581BF0B32BC01061007283DC /* Server.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Server.js; sourceTree = "<group>"; };
 		581F37382BBEAC18003D6B09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		581F373D2BBEAD61003D6B09 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -196,9 +198,18 @@
 			path = "bank app main screen";
 			sourceTree = "<group>";
 		};
+		581BF0B22BC0101D007283DC /* In case the server is dead */ = {
+			isa = PBXGroup;
+			children = (
+				581BF0B32BC01061007283DC /* Server.js */,
+			);
+			path = "In case the server is dead";
+			sourceTree = "<group>";
+		};
 		581F37372BBEAB7B003D6B09 /* LoginWithAPIAndJWT */ = {
 			isa = PBXGroup;
 			children = (
+				581BF0B22BC0101D007283DC /* In case the server is dead */,
 				581F373C2BBEAD53003D6B09 /* Models */,
 				581F373B2BBEAD41003D6B09 /* Viewmodels */,
 				581F373A2BBEAD21003D6B09 /* Services */,
@@ -592,6 +603,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E2093E2BA87E7B006B02FF /* Preview Assets.xcassets in Resources */,
+				581BF0B42BC01061007283DC /* Server.js in Resources */,
 				58E2093B2BA87E7B006B02FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
