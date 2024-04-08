@@ -12,7 +12,7 @@
 		581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0B02BC00272007283DC /* AccountListViewModel.swift */; };
 		581BF0B42BC01061007283DC /* Server.js in Resources */ = {isa = PBXBuildFile; fileRef = 581BF0B32BC01061007283DC /* Server.js */; };
 		581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F37382BBEAC18003D6B09 /* LoginView.swift */; };
-		581F373E2BBEAD61003D6B09 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373D2BBEAD61003D6B09 /* Webservice.swift */; };
+		581F373E2BBEAD61003D6B09 /* LoginWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */; };
 		581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */; };
 		583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */; };
 		583E9FD72BBAA4DE00499644 /* OutlineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */; };
@@ -50,6 +50,11 @@
 		58E1E98C2BC3D00200C98A44 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E98B2BC3D00200C98A44 /* SearchableView.swift */; };
 		58E1E98E2BC3D21F00C98A44 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E98D2BC3D21F00C98A44 /* SwipeActions.swift */; };
 		58E1E9932BC3DB2D00C98A44 /* ReadingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9922BC3DB2D00C98A44 /* ReadingOrder.swift */; };
+		58E1E99A2BC3E51E00C98A44 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9992BC3E51E00C98A44 /* Film.swift */; };
+		58E1E99C2BC3E5FC00C98A44 /* FilmWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E99B2BC3E5FC00C98A44 /* FilmWebService.swift */; };
+		58E1E99E2BC3EA8300C98A44 /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E99D2BC3EA8300C98A44 /* FilmListViewModel.swift */; };
+		58E1E9A12BC3EDCA00C98A44 /* FilmSearchMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9A02BC3EDCA00C98A44 /* FilmSearchMainView.swift */; };
+		58E1E9A42BC3F6D600C98A44 /* GroupingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9A32BC3F6D600C98A44 /* GroupingViews.swift */; };
 		58E209352BA87E79006B02FF /* SwiftUI_PillsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */; };
 		58E209372BA87E79006B02FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E209362BA87E79006B02FF /* ContentView.swift */; };
 		58E209392BA87E79006B02FF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E209382BA87E79006B02FF /* Item.swift */; };
@@ -103,7 +108,7 @@
 		581BF0B02BC00272007283DC /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
 		581BF0B32BC01061007283DC /* Server.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Server.js; sourceTree = "<group>"; };
 		581F37382BBEAC18003D6B09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		581F373D2BBEAD61003D6B09 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebservice.swift; sourceTree = "<group>"; };
 		581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreWrapper.swift; sourceTree = "<group>"; };
 		583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroup.swift; sourceTree = "<group>"; };
@@ -142,6 +147,11 @@
 		58E1E98B2BC3D00200C98A44 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
 		58E1E98D2BC3D21F00C98A44 /* SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActions.swift; sourceTree = "<group>"; };
 		58E1E9922BC3DB2D00C98A44 /* ReadingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingOrder.swift; sourceTree = "<group>"; };
+		58E1E9992BC3E51E00C98A44 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		58E1E99B2BC3E5FC00C98A44 /* FilmWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmWebService.swift; sourceTree = "<group>"; };
+		58E1E99D2BC3EA8300C98A44 /* FilmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
+		58E1E9A02BC3EDCA00C98A44 /* FilmSearchMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSearchMainView.swift; sourceTree = "<group>"; };
+		58E1E9A32BC3F6D600C98A44 /* GroupingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupingViews.swift; sourceTree = "<group>"; };
 		58E209312BA87E79006B02FF /* SwiftUI Pills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Pills.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PillsApp.swift; sourceTree = "<group>"; };
 		58E209362BA87E79006B02FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -231,7 +241,7 @@
 		581F373A2BBEAD21003D6B09 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				581F373D2BBEAD61003D6B09 /* Webservice.swift */,
+				581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -299,8 +309,52 @@
 			isa = PBXGroup;
 			children = (
 				58E1E9922BC3DB2D00C98A44 /* ReadingOrder.swift */,
+				58E1E9A32BC3F6D600C98A44 /* GroupingViews.swift */,
 			);
 			path = Accesibility;
+			sourceTree = "<group>";
+		};
+		58E1E9942BC3E4B300C98A44 /* MovieLiveSeach */ = {
+			isa = PBXGroup;
+			children = (
+				58E1E9982BC3E4ED00C98A44 /* ViewModels */,
+				58E1E9972BC3E4E500C98A44 /* Services */,
+				58E1E9962BC3E4CD00C98A44 /* Models */,
+				58E1E9952BC3E4C600C98A44 /* Views */,
+			);
+			path = MovieLiveSeach;
+			sourceTree = "<group>";
+		};
+		58E1E9952BC3E4C600C98A44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58E1E9A02BC3EDCA00C98A44 /* FilmSearchMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58E1E9962BC3E4CD00C98A44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58E1E9992BC3E51E00C98A44 /* Film.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58E1E9972BC3E4E500C98A44 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				58E1E99B2BC3E5FC00C98A44 /* FilmWebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		58E1E9982BC3E4ED00C98A44 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				58E1E99D2BC3EA8300C98A44 /* FilmListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		58E209282BA87E78006B02FF = {
@@ -454,6 +508,7 @@
 		58E7D9C32BB1C5B9005C0406 /* screen POCS */ = {
 			isa = PBXGroup;
 			children = (
+				58E1E9942BC3E4B300C98A44 /* MovieLiveSeach */,
 				5803CDF42BBD64970021B991 /* bank app main screen */,
 				58FECBA92BBC49E7007F48B7 /* Credit card viewer */,
 				581F37372BBEAB7B003D6B09 /* LoginWithAPIAndJWT */,
@@ -697,22 +752,27 @@
 				583E9FE52BBAC65B00499644 /* URLImage.swift in Sources */,
 				58E7D9CF2BB1CA5A005C0406 /* StockViewModel.swift in Sources */,
 				587B2AC32BADB122000DD3F3 /* SearchInList.swift in Sources */,
+				58E1E9A42BC3F6D600C98A44 /* GroupingViews.swift in Sources */,
 				58FECBA42BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift in Sources */,
 				58FECBAD2BBC4B64007F48B7 /* CreditrCardViewer.swift in Sources */,
 				5852022D2BB430FC004D67CC /* GridsLayouts.swift in Sources */,
 				5852022B2BB42826004D67CC /* DatePicker.swift in Sources */,
 				583E9FD72BBAA4DE00499644 /* OutlineGroup.swift in Sources */,
-				581F373E2BBEAD61003D6B09 /* Webservice.swift in Sources */,
+				581F373E2BBEAD61003D6B09 /* LoginWebservice.swift in Sources */,
 				58E7D9CA2BB1C898005C0406 /* Stock.swift in Sources */,
 				58E2096E2BA88550006B02FF /* State Examples.swift in Sources */,
 				583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */,
+				58E1E99E2BC3EA8300C98A44 /* FilmListViewModel.swift in Sources */,
 				58E7D9C22BB1C391005C0406 /* CombiningAnimations.swift in Sources */,
 				586D48332BB2232B0081061E /* Article.swift in Sources */,
 				581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */,
 				58E7D9BC2BB19D2B005C0406 /* BasicAnimation.swift in Sources */,
 				58FA29012BB2C75F004266A5 /* NewsArticleView.swift in Sources */,
+				58E1E99C2BC3E5FC00C98A44 /* FilmWebService.swift in Sources */,
 				58E7D9BE2BB1B720005C0406 /* SpringAnimation.swift in Sources */,
 				5803CDF62BBD64C20021B991 /* BankDashboard.swift in Sources */,
+				58E1E99A2BC3E51E00C98A44 /* Film.swift in Sources */,
+				58E1E9A12BC3EDCA00C98A44 /* FilmSearchMainView.swift in Sources */,
 				5849DFCC2BAAE36200C17051 /* Magnify.swift in Sources */,
 				585202272BB4249C004D67CC /* Map.swift in Sources */,
 				581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */,

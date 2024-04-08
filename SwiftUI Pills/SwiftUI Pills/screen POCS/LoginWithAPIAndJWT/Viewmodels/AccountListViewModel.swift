@@ -17,7 +17,7 @@ class AccountListViewModel: ObservableObject {
             print("ups")
             return
         }
-        Webservice().getAllAccounts(token: token) { result in
+        LoginWebservice().getAllAccounts(token: token) { result in
             print("eyyy")
             switch result {
             case .success(let success):

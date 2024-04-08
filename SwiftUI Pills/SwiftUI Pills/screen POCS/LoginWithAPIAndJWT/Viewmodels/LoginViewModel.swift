@@ -14,7 +14,7 @@ class LoginViewModel: ObservableObject {
     
     func login() {
         let defaults = UserDefaults.standard
-        Webservice().login(body: LoginRequestBody(username: userName, password: password)) { result in
+        LoginWebservice().login(body: LoginRequestBody(username: userName, password: password)) { result in
             switch result {
             case .success(let success):
                 defaults.setValue(success, forKey: "jwt")

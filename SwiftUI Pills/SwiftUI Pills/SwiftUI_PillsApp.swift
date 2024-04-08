@@ -25,7 +25,7 @@ struct SwiftUI_PillsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GroupingViews()
         }
         .modelContainer(sharedModelContainer)
     }

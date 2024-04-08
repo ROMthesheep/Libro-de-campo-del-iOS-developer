@@ -12,7 +12,7 @@ enum AuthError: Error {
     case custom(errorMessage: String)
 }
 
-enum NetworkError: Error {
+enum LoginNetworkError: Error {
     case invalidURL
     case noData
     case decodingError
@@ -29,9 +29,9 @@ struct LoginResponse: Codable {
     let success: Bool?
 }
 
-class Webservice {
+class LoginWebservice {
     
-    func getAllAccounts(token: String, completion: @escaping (Result<[Account], NetworkError>) -> Void) {
+    func getAllAccounts(token: String, completion: @escaping (Result<[Account], LoginNetworkError>) -> Void) {
         guard let url = URL(string: "https://water-amenable-star.glitch.me/accounts") else {
             completion(.failure(.invalidURL))
             return
