@@ -45,6 +45,11 @@
 		587B2AC32BADB122000DD3F3 /* SearchInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587B2AC22BADB122000DD3F3 /* SearchInList.swift */; };
 		58BBD7502BB1E75800403307 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD74F2BB1E75800403307 /* SearchView.swift */; };
 		58BBD7522BB1F4E300403307 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD7512BB1F4E300403307 /* StockListView.swift */; };
+		58E1E9872BC3C7C900C98A44 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9862BC3C7C900C98A44 /* PullToRefresh.swift */; };
+		58E1E98A2BC3CD8600C98A44 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9892BC3CD8600C98A44 /* TimelineView.swift */; };
+		58E1E98C2BC3D00200C98A44 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E98B2BC3D00200C98A44 /* SearchableView.swift */; };
+		58E1E98E2BC3D21F00C98A44 /* SwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E98D2BC3D21F00C98A44 /* SwipeActions.swift */; };
+		58E1E9932BC3DB2D00C98A44 /* ReadingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9922BC3DB2D00C98A44 /* ReadingOrder.swift */; };
 		58E209352BA87E79006B02FF /* SwiftUI_PillsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */; };
 		58E209372BA87E79006B02FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E209362BA87E79006B02FF /* ContentView.swift */; };
 		58E209392BA87E79006B02FF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E209382BA87E79006B02FF /* Item.swift */; };
@@ -132,6 +137,11 @@
 		587B2AC22BADB122000DD3F3 /* SearchInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInList.swift; sourceTree = "<group>"; };
 		58BBD74F2BB1E75800403307 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		58BBD7512BB1F4E300403307 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
+		58E1E9862BC3C7C900C98A44 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
+		58E1E9892BC3CD8600C98A44 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		58E1E98B2BC3D00200C98A44 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
+		58E1E98D2BC3D21F00C98A44 /* SwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActions.swift; sourceTree = "<group>"; };
+		58E1E9922BC3DB2D00C98A44 /* ReadingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingOrder.swift; sourceTree = "<group>"; };
 		58E209312BA87E79006B02FF /* SwiftUI Pills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Pills.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PillsApp.swift; sourceTree = "<group>"; };
 		58E209362BA87E79006B02FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -210,10 +220,10 @@
 			isa = PBXGroup;
 			children = (
 				581BF0B22BC0101D007283DC /* In case the server is dead */,
-				581F373C2BBEAD53003D6B09 /* Models */,
-				581F373B2BBEAD41003D6B09 /* Viewmodels */,
-				581F373A2BBEAD21003D6B09 /* Services */,
 				581F37382BBEAC18003D6B09 /* LoginView.swift */,
+				581F373C2BBEAD53003D6B09 /* Models */,
+				581F373A2BBEAD21003D6B09 /* Services */,
+				581F373B2BBEAD41003D6B09 /* Viewmodels */,
 			);
 			path = LoginWithAPIAndJWT;
 			sourceTree = "<group>";
@@ -229,8 +239,8 @@
 		581F373B2BBEAD41003D6B09 /* Viewmodels */ = {
 			isa = PBXGroup;
 			children = (
-				581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */,
 				581BF0B02BC00272007283DC /* AccountListViewModel.swift */,
+				581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */,
 			);
 			path = Viewmodels;
 			sourceTree = "<group>";
@@ -246,10 +256,10 @@
 		583E9FDA2BBAB63400499644 /* Movie Catalog */ = {
 			isa = PBXGroup;
 			children = (
-				583E9FDD2BBAB7BA00499644 /* MovieStore.swift */,
-				583E9FDF2BBABABA00499644 /* MovieCatalogView.swift */,
-				583E9FE42BBAC65B00499644 /* URLImage.swift */,
 				583E9FE22BBAC54F00499644 /* ImageLoader.swift */,
+				583E9FDF2BBABABA00499644 /* MovieCatalogView.swift */,
+				583E9FDD2BBAB7BA00499644 /* MovieStore.swift */,
+				583E9FE42BBAC65B00499644 /* URLImage.swift */,
 			);
 			path = "Movie Catalog";
 			sourceTree = "<group>";
@@ -257,8 +267,8 @@
 		583E9FE82BBADF2E00499644 /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
-				58FECB9F2BBBFECA007F48B7 /* SimpleMatchedGeometry.swift */,
 				58FECBA12BBC0832007F48B7 /* MusicPlayerEffect.swift */,
+				58FECB9F2BBBFECA007F48B7 /* SimpleMatchedGeometry.swift */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -266,21 +276,31 @@
 		587B2ABF2BAD8990000DD3F3 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				587B2AC02BAD89AB000DD3F3 /* Pull Image From camera.swift */,
-				587B2AC22BADB122000DD3F3 /* SearchInList.swift */,
-				58E7D9532BB17649005C0406 /* Custom line graph.swift */,
-				585202242BB42317004D67CC /* ProgressBar.swift */,
-				585202262BB4249C004D67CC /* Map.swift */,
-				585202282BB42756004D67CC /* ColorPicker.swift */,
-				5852022A2BB42826004D67CC /* DatePicker.swift */,
-				585202302BB4688D004D67CC /* CustomModifiersAndViews.swift */,
 				583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */,
-				583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */,
+				585202282BB42756004D67CC /* ColorPicker.swift */,
+				58E7D9532BB17649005C0406 /* Custom line graph.swift */,
+				585202302BB4688D004D67CC /* CustomModifiersAndViews.swift */,
+				5852022A2BB42826004D67CC /* DatePicker.swift */,
 				583E9FD82BBAB51700499644 /* DisclouseGroups.swift */,
-				583E9FE62BBAD1CF00499644 /* NotificationCenterForegroundExecution.swift */,
 				58FECBA32BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift */,
+				585202262BB4249C004D67CC /* Map.swift */,
+				583E9FE62BBAD1CF00499644 /* NotificationCenterForegroundExecution.swift */,
+				583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */,
+				585202242BB42317004D67CC /* ProgressBar.swift */,
+				587B2AC02BAD89AB000DD3F3 /* Pull Image From camera.swift */,
+				58E1E98B2BC3D00200C98A44 /* SearchableView.swift */,
+				587B2AC22BADB122000DD3F3 /* SearchInList.swift */,
+				58E1E9892BC3CD8600C98A44 /* TimelineView.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		58E1E98F2BC3D4F600C98A44 /* Accesibility */ = {
+			isa = PBXGroup;
+			children = (
+				58E1E9922BC3DB2D00C98A44 /* ReadingOrder.swift */,
+			);
+			path = Accesibility;
 			sourceTree = "<group>";
 		};
 		58E209282BA87E78006B02FF = {
@@ -306,23 +326,24 @@
 		58E209332BA87E79006B02FF /* SwiftUI Pills */ = {
 			isa = PBXGroup;
 			children = (
-				583E9FE82BBADF2E00499644 /* Geometry */,
-				58E7D9C32BB1C5B9005C0406 /* screen POCS */,
-				58E209692BA87F2E006B02FF /* Modals */,
-				58E209672BA87F12006B02FF /* Gestures */,
-				58E209652BA87EDC006B02FF /* State and Binding */,
-				58E209642BA87ECB006B02FF /* Forms */,
-				58E209632BA87EBE006B02FF /* Shaders */,
+				58E1E98F2BC3D4F600C98A44 /* Accesibility */,
 				58E209622BA87EB6006B02FF /* Animations */,
+				58E209642BA87ECB006B02FF /* Forms */,
+				583E9FE82BBADF2E00499644 /* Geometry */,
+				58E209672BA87F12006B02FF /* Gestures */,
+				58E209602BA87E99006B02FF /* Grid */,
 				58E209612BA87EA9006B02FF /* Image Manipulation */,
 				587B2ABF2BAD8990000DD3F3 /* Misc */,
-				58E209602BA87E99006B02FF /* Grid */,
-				58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */,
+				58E209692BA87F2E006B02FF /* Modals */,
+				58E2093C2BA87E7B006B02FF /* Preview Content */,
+				58E7D9C32BB1C5B9005C0406 /* screen POCS */,
+				58E209632BA87EBE006B02FF /* Shaders */,
+				58E209652BA87EDC006B02FF /* State and Binding */,
 				58E209362BA87E79006B02FF /* ContentView.swift */,
 				58E209382BA87E79006B02FF /* Item.swift */,
+				58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */,
 				583E9FE12BBABCD600499644 /* SwiftUI-Pills-Info.plist */,
 				58E2093A2BA87E7B006B02FF /* Assets.xcassets */,
-				58E2093C2BA87E7B006B02FF /* Preview Content */,
 			);
 			path = "SwiftUI Pills";
 			sourceTree = "<group>";
@@ -355,9 +376,9 @@
 		58E209602BA87E99006B02FF /* Grid */ = {
 			isa = PBXGroup;
 			children = (
+				5852022C2BB430FC004D67CC /* GridsLayouts.swift */,
 				585202222BB42001004D67CC /* LazyGrid.swift */,
 				5852022E2BB43EA3004D67CC /* PinnedViewGrid.swift */,
-				5852022C2BB430FC004D67CC /* GridsLayouts.swift */,
 			);
 			path = Grid;
 			sourceTree = "<group>";
@@ -373,9 +394,9 @@
 			isa = PBXGroup;
 			children = (
 				58E7D9BB2BB19D2B005C0406 /* BasicAnimation.swift */,
-				58E7D9BD2BB1B720005C0406 /* SpringAnimation.swift */,
-				58E7D9BF2BB1B971005C0406 /* NotificationAnimation.swift */,
 				58E7D9C12BB1C391005C0406 /* CombiningAnimations.swift */,
+				58E7D9BF2BB1B971005C0406 /* NotificationAnimation.swift */,
+				58E7D9BD2BB1B720005C0406 /* SpringAnimation.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -399,10 +420,10 @@
 		58E209652BA87EDC006B02FF /* State and Binding */ = {
 			isa = PBXGroup;
 			children = (
-				58E2096D2BA88550006B02FF /* State Examples.swift */,
-				58E2096B2BA880E2006B02FF /* FilteringListSearchable.swift */,
 				58E2096F2BA88C86006B02FF /* Binding Examples.swift */,
 				58E209712BA89930006B02FF /* Enviroment Example.swift */,
+				58E2096B2BA880E2006B02FF /* FilteringListSearchable.swift */,
+				58E2096D2BA88550006B02FF /* State Examples.swift */,
 			);
 			path = "State and Binding";
 			sourceTree = "<group>";
@@ -411,10 +432,12 @@
 			isa = PBXGroup;
 			children = (
 				5849DFC92BAAE14E00C17051 /* ColorView.swift */,
-				5849DFC52BAADBC600C17051 /* Tap.swift */,
 				5849DFC72BAAE0C500C17051 /* Drag.swift */,
 				5849DFCB2BAAE36200C17051 /* Magnify.swift */,
+				58E1E9862BC3C7C900C98A44 /* PullToRefresh.swift */,
 				5849DFCD2BAAF59C00C17051 /* Rotation.swift */,
+				58E1E98D2BC3D21F00C98A44 /* SwipeActions.swift */,
+				5849DFC52BAADBC600C17051 /* Tap.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -422,8 +445,8 @@
 		58E209692BA87F2E006B02FF /* Modals */ = {
 			isa = PBXGroup;
 			children = (
-				5849DFD52BAB39BA00C17051 /* SimpleModal.swift */,
 				5849DFD72BAB3DE500C17051 /* Comunication between modal and host.swift */,
+				5849DFD52BAB39BA00C17051 /* SimpleModal.swift */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -431,9 +454,9 @@
 		58E7D9C32BB1C5B9005C0406 /* screen POCS */ = {
 			isa = PBXGroup;
 			children = (
-				581F37372BBEAB7B003D6B09 /* LoginWithAPIAndJWT */,
 				5803CDF42BBD64970021B991 /* bank app main screen */,
 				58FECBA92BBC49E7007F48B7 /* Credit card viewer */,
+				581F37372BBEAB7B003D6B09 /* LoginWithAPIAndJWT */,
 				583E9FDA2BBAB63400499644 /* Movie Catalog */,
 				58E7D9C42BB1C5DD005C0406 /* Stocks Apps */,
 			);
@@ -443,10 +466,10 @@
 		58E7D9C42BB1C5DD005C0406 /* Stocks Apps */ = {
 			isa = PBXGroup;
 			children = (
-				58E7D9D02BB1CFC9005C0406 /* Views */,
-				58E7D9CB2BB1C9FE005C0406 /* ViewModels */,
 				58E7D9C82BB1C885005C0406 /* Models */,
 				58E7D9C52BB1C7CE005C0406 /* Services */,
+				58E7D9CB2BB1C9FE005C0406 /* ViewModels */,
+				58E7D9D02BB1CFC9005C0406 /* Views */,
 			);
 			path = "Stocks Apps";
 			sourceTree = "<group>";
@@ -462,8 +485,8 @@
 		58E7D9C82BB1C885005C0406 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				58E7D9C92BB1C898005C0406 /* Stock.swift */,
 				586D48322BB2232B0081061E /* Article.swift */,
+				58E7D9C92BB1C898005C0406 /* Stock.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -471,9 +494,9 @@
 		58E7D9CB2BB1C9FE005C0406 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				586D48342BB22A740081061E /* ArticleViewModel.swift */,
 				58E7D9CC2BB1CA2C005C0406 /* StockListViewModel.swift */,
 				58E7D9CE2BB1CA5A005C0406 /* StockViewModel.swift */,
-				586D48342BB22A740081061E /* ArticleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -481,10 +504,10 @@
 		58E7D9D02BB1CFC9005C0406 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				58E7D9D12BB1CFDB005C0406 /* StockAppMainView.swift */,
-				58BBD74F2BB1E75800403307 /* SearchView.swift */,
-				58BBD7512BB1F4E300403307 /* StockListView.swift */,
 				58FA29002BB2C75F004266A5 /* NewsArticleView.swift */,
+				58BBD74F2BB1E75800403307 /* SearchView.swift */,
+				58E7D9D12BB1CFDB005C0406 /* StockAppMainView.swift */,
+				58BBD7512BB1F4E300403307 /* StockListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -633,10 +656,13 @@
 				583E9FE32BBAC54F00499644 /* ImageLoader.swift in Sources */,
 				586D48352BB22A740081061E /* ArticleViewModel.swift in Sources */,
 				58E7D9D22BB1CFDB005C0406 /* StockAppMainView.swift in Sources */,
+				58E1E9872BC3C7C900C98A44 /* PullToRefresh.swift in Sources */,
 				5849DFC62BAADBC600C17051 /* Tap.swift in Sources */,
+				58E1E98E2BC3D21F00C98A44 /* SwipeActions.swift in Sources */,
 				58BBD7502BB1E75800403307 /* SearchView.swift in Sources */,
 				58E7D9C72BB1C7E3005C0406 /* StocksWebservice.swift in Sources */,
 				5852022F2BB43EA3004D67CC /* PinnedViewGrid.swift in Sources */,
+				58E1E98A2BC3CD8600C98A44 /* TimelineView.swift in Sources */,
 				583E9FD92BBAB51700499644 /* DisclouseGroups.swift in Sources */,
 				58E209702BA88C86006B02FF /* Binding Examples.swift in Sources */,
 				5849DFC82BAAE0C500C17051 /* Drag.swift in Sources */,
@@ -648,6 +674,7 @@
 				58E7D9C02BB1B971005C0406 /* NotificationAnimation.swift in Sources */,
 				58FECBA22BBC0832007F48B7 /* MusicPlayerEffect.swift in Sources */,
 				585202252BB42317004D67CC /* ProgressBar.swift in Sources */,
+				58E1E98C2BC3D00200C98A44 /* SearchableView.swift in Sources */,
 				58E209392BA87E79006B02FF /* Item.swift in Sources */,
 				58FECBAB2BBC49FE007F48B7 /* CreditCard.swift in Sources */,
 				58E209722BA89930006B02FF /* Enviroment Example.swift in Sources */,
@@ -655,6 +682,7 @@
 				583E9FDE2BBAB7BA00499644 /* MovieStore.swift in Sources */,
 				58E7D9542BB17649005C0406 /* Custom line graph.swift in Sources */,
 				5849DFD62BAB39BA00C17051 /* SimpleModal.swift in Sources */,
+				58E1E9932BC3DB2D00C98A44 /* ReadingOrder.swift in Sources */,
 				587B2AC12BAD89AB000DD3F3 /* Pull Image From camera.swift in Sources */,
 				581BF0AF2BBFFE14007283DC /* Account.swift in Sources */,
 				583E9FE02BBABABA00499644 /* MovieCatalogView.swift in Sources */,
