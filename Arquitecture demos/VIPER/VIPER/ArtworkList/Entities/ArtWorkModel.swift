@@ -1,13 +1,14 @@
 //
 //  ArtWorkModel.swift
-//  MVC
+//  VIPER
 //
-//  Created by RomTheSheep on 18/4/24.
+//  Created by RomTheSheep on 22/4/24.
 //
 
 import Foundation
 
 struct ArtWorkModel: Decodable {
+    let id: Int
     let title: String
     let dateStart, dateEnd: Int
     let dateDisplay: String
@@ -28,6 +29,7 @@ struct ArtWorkModel: Decodable {
     }
 
     enum CodingKeys: String, CodingKey {
+        case id
         case title
         case dateStart = "date_start"
         case dateEnd = "date_end"
@@ -49,6 +51,7 @@ struct ArtWorkModel: Decodable {
     
     init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.id = try container.decode(Int.self, forKey: .id)
         self.title = try container.decode(String.self, forKey: .title)
         self.dateStart = try container.decode(Int.self, forKey: .dateStart)
         self.dateEnd = try container.decode(Int.self, forKey: .dateEnd)

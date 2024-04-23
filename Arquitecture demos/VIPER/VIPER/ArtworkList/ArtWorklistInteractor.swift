@@ -1,19 +1,29 @@
 //
-//  Client.swift
-//  MVC
+//  ArtWorklistInteractor.swift
+//  VIPER
 //
-//  Created by RomTheSheep on 16/4/24.
+//  Created by RomTheSheep on 22/4/24.
 //
 
 import Foundation
 
-enum ClientError: Error {
-    case badURL, badService, badParse
+protocol ArtWorklistInteractable: AnyObject {
+    func getArtworks(page: Int) async throws -> ArtworkListingResponse
 }
 
+extension ArtWorklistInteractable {
+    func getArtworks(page: Int = 1) async throws -> ArtworkListingResponse {
+        return try await getArtworks(page: 1)
+    }
+}
 
-final class Client {
-    func getArtworks(page: Int = 3) async throws -> ArtworkListingResponse {
+class ArtWorklistInteractor: ArtWorklistInteractable {
+    
+    enum ClientError: Error {
+        case badURL, badService, badParse
+    }
+    
+    func getArtworks(page: Int = 1) async throws -> ArtworkListingResponse {
         var urlBuilder = URLComponents()
         urlBuilder.scheme = "https"
         urlBuilder.host = "api.artic.edu"

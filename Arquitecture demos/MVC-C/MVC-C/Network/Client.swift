@@ -13,7 +13,7 @@ enum ClientError: Error {
 
 
 final class Client {
-    func getArtworks(page: Int = 3) async throws -> ArtworkListingResponse {
+    func getArtworks(page: Int = 1) async throws -> ArtworkListingResponse {
         var urlBuilder = URLComponents()
         urlBuilder.scheme = "https"
         urlBuilder.host = "api.artic.edu"
