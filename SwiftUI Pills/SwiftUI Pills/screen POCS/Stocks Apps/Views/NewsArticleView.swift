@@ -12,7 +12,6 @@ struct NewsArticleView: View {
     let newsArticles: [ArticleViewModel]
     
     var body: some View {
-        let screenSize = UIScreen.main.bounds.size
         
         return VStack(alignment: .leading) {
             VStack(alignment: .leading) {

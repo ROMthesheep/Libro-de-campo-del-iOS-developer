@@ -20,8 +20,8 @@ struct BasicAnimation: View {
             HStack {
                 Text(showDetails ? "Hide Details" : "Show Details")
                 Image(systemName: "chevron.up.square")
-                    .rotationEffect(.degrees(showDetails ? 0 : 180+360))
-                    .animation(.default)
+                    .rotationEffect(.degrees(showDetails ? 0 : 180))
+                    .animation(.default, value: showDetails)
             }
         }
     }

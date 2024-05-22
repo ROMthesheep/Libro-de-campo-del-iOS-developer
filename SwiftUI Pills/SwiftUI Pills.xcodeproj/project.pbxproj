@@ -14,6 +14,8 @@
 		581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F37382BBEAC18003D6B09 /* LoginView.swift */; };
 		581F373E2BBEAD61003D6B09 /* LoginWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */; };
 		581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */; };
+		583AE9A52BFB520C0064C72B /* FancyStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */; };
+		583AE9A72BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */; };
 		583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */; };
 		583E9FD72BBAA4DE00499644 /* OutlineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */; };
 		583E9FD92BBAB51700499644 /* DisclouseGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD82BBAB51700499644 /* DisclouseGroups.swift */; };
@@ -45,6 +47,8 @@
 		587B2AC32BADB122000DD3F3 /* SearchInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587B2AC22BADB122000DD3F3 /* SearchInList.swift */; };
 		58BBD7502BB1E75800403307 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD74F2BB1E75800403307 /* SearchView.swift */; };
 		58BBD7522BB1F4E300403307 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBD7512BB1F4E300403307 /* StockListView.swift */; };
+		58DC6B702BFDCA650072FE39 /* SimpleVerticalStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC6B6F2BFDCA650072FE39 /* SimpleVerticalStackableCarousel.swift */; };
+		58DC6B722BFDEFFC0072FE39 /* SimpleCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC6B712BFDEFFC0072FE39 /* SimpleCarousel.swift */; };
 		58E1E9872BC3C7C900C98A44 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9862BC3C7C900C98A44 /* PullToRefresh.swift */; };
 		58E1E98A2BC3CD8600C98A44 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E9892BC3CD8600C98A44 /* TimelineView.swift */; };
 		58E1E98C2BC3D00200C98A44 /* SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E1E98B2BC3D00200C98A44 /* SearchableView.swift */; };
@@ -110,6 +114,8 @@
 		581F37382BBEAC18003D6B09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebservice.swift; sourceTree = "<group>"; };
 		581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyStackableCarousel.swift; sourceTree = "<group>"; };
+		583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHorizontalStackableCarousel.swift; sourceTree = "<group>"; };
 		583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreWrapper.swift; sourceTree = "<group>"; };
 		583E9FD62BBAA4DE00499644 /* OutlineGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroup.swift; sourceTree = "<group>"; };
 		583E9FD82BBAB51700499644 /* DisclouseGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclouseGroups.swift; sourceTree = "<group>"; };
@@ -142,6 +148,8 @@
 		587B2AC22BADB122000DD3F3 /* SearchInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInList.swift; sourceTree = "<group>"; };
 		58BBD74F2BB1E75800403307 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		58BBD7512BB1F4E300403307 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
+		58DC6B6F2BFDCA650072FE39 /* SimpleVerticalStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVerticalStackableCarousel.swift; sourceTree = "<group>"; };
+		58DC6B712BFDEFFC0072FE39 /* SimpleCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCarousel.swift; sourceTree = "<group>"; };
 		58E1E9862BC3C7C900C98A44 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		58E1E9892BC3CD8600C98A44 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		58E1E98B2BC3D00200C98A44 /* SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableView.swift; sourceTree = "<group>"; };
@@ -263,6 +271,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		583AE9A32BFB50730064C72B /* Carousels */ = {
+			isa = PBXGroup;
+			children = (
+				58DC6B712BFDEFFC0072FE39 /* SimpleCarousel.swift */,
+				583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */,
+				583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */,
+				58DC6B6F2BFDCA650072FE39 /* SimpleVerticalStackableCarousel.swift */,
+			);
+			path = Carousels;
+			sourceTree = "<group>";
+		};
 		583E9FDA2BBAB63400499644 /* Movie Catalog */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,9 +399,10 @@
 		58E209332BA87E79006B02FF /* SwiftUI Pills */ = {
 			isa = PBXGroup;
 			children = (
-				58E7D9C32BB1C5B9005C0406 /* screen POCS */,
 				58E1E98F2BC3D4F600C98A44 /* Accesibility */,
 				58E209622BA87EB6006B02FF /* Animations */,
+				583AE9A32BFB50730064C72B /* Carousels */,
+				58E209362BA87E79006B02FF /* ContentView.swift */,
 				58E209642BA87ECB006B02FF /* Forms */,
 				583E9FE82BBADF2E00499644 /* Geometry */,
 				58E209672BA87F12006B02FF /* Gestures */,
@@ -391,11 +411,11 @@
 				587B2ABF2BAD8990000DD3F3 /* Misc */,
 				58E209692BA87F2E006B02FF /* Modals */,
 				58E2093C2BA87E7B006B02FF /* Preview Content */,
+				58E7D9C32BB1C5B9005C0406 /* screen POCS */,
 				58E209632BA87EBE006B02FF /* Shaders */,
 				58E209652BA87EDC006B02FF /* State and Binding */,
-				58E209362BA87E79006B02FF /* ContentView.swift */,
-				58E209382BA87E79006B02FF /* Item.swift */,
 				58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */,
+				58E209382BA87E79006B02FF /* Item.swift */,
 				583E9FE12BBABCD600499644 /* SwiftUI-Pills-Info.plist */,
 				58E2093A2BA87E7B006B02FF /* Assets.xcassets */,
 			);
@@ -725,6 +745,7 @@
 				5849DFCA2BAAE14E00C17051 /* ColorView.swift in Sources */,
 				5849DFD82BAB3DE500C17051 /* Comunication between modal and host.swift in Sources */,
 				58BBD7522BB1F4E300403307 /* StockListView.swift in Sources */,
+				583AE9A52BFB520C0064C72B /* FancyStackableCarousel.swift in Sources */,
 				5849DFCE2BAAF59C00C17051 /* Rotation.swift in Sources */,
 				58E7D9C02BB1B971005C0406 /* NotificationAnimation.swift in Sources */,
 				58FECBA22BBC0832007F48B7 /* MusicPlayerEffect.swift in Sources */,
@@ -743,11 +764,13 @@
 				583E9FE02BBABABA00499644 /* MovieCatalogView.swift in Sources */,
 				583E9FE72BBAD1CF00499644 /* NotificationCenterForegroundExecution.swift in Sources */,
 				58FECBA02BBBFECA007F48B7 /* SimpleMatchedGeometry.swift in Sources */,
+				58DC6B722BFDEFFC0072FE39 /* SimpleCarousel.swift in Sources */,
 				58E2096C2BA880E2006B02FF /* FilteringListSearchable.swift in Sources */,
 				58E7D9CD2BB1CA2C005C0406 /* StockListViewModel.swift in Sources */,
 				5849DFD42BAB2D7A00C17051 /* NotificationSettings.swift in Sources */,
 				585202312BB4688D004D67CC /* CustomModifiersAndViews.swift in Sources */,
 				585202232BB42001004D67CC /* LazyGrid.swift in Sources */,
+				583AE9A72BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift in Sources */,
 				5849DFD22BAAFA4F00C17051 /* Eventform.swift in Sources */,
 				583E9FE52BBAC65B00499644 /* URLImage.swift in Sources */,
 				58E7D9CF2BB1CA5A005C0406 /* StockViewModel.swift in Sources */,
@@ -760,6 +783,7 @@
 				583E9FD72BBAA4DE00499644 /* OutlineGroup.swift in Sources */,
 				581F373E2BBEAD61003D6B09 /* LoginWebservice.swift in Sources */,
 				58E7D9CA2BB1C898005C0406 /* Stock.swift in Sources */,
+				58DC6B702BFDCA650072FE39 /* SimpleVerticalStackableCarousel.swift in Sources */,
 				58E2096E2BA88550006B02FF /* State Examples.swift in Sources */,
 				583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */,
 				58E1E99E2BC3EA8300C98A44 /* FilmListViewModel.swift in Sources */,
