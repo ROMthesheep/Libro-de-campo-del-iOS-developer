@@ -9,6 +9,11 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
 [![Repo Size](https://img.shields.io/github/repo-size/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)]()
 ![License](https://img.shields.io/badge/license-MIT-6495ED.svg)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/romthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
+![Github Created At](https://img.shields.io/github/created-at/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
+
+
+
 <!-- [![Contributors](https://img.shields.io/github/contributors/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)]() --> 
 
 <!-- Star disclaimer --> 
