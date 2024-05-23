@@ -1,4 +1,5 @@
 # Contribution Guide
+#### Keep in mind that this is a Spanish-focused space, but you are still welcome here.
 
 When contributing to this repository, please first check if there is already an issue related to your contribution in the Issues section. If there is, link your PR to it.
 
@@ -11,6 +12,7 @@ Please note that you should always respect the code of conduct and the general [
 2. Justify in the PR description why your changes are necessary and what your PR contributes.
 3. Assign @ROMthesheep as the reviewer.
 4. Apply the corresponding label.
+5. All the content that is intended to be read must be in Spanish. The source code can be in either English or Spanish.
 
 ## Code of Conduct
 

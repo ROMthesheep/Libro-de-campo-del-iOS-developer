@@ -8,6 +8,7 @@
 </center>
 
 # Guia de contribucion
+
 Cuando contribuyas a este repositorio, por favor, primero mira si en la seccion de Issues no existe ya una issue relacionada con tu aportacion, si es asi, vincula tu PR con ella.
 
 Tambien tienes en el final del README una lista de TO-DOs
@@ -19,6 +20,7 @@ Por favor, ten en cuenta que ante todo se debe respetar el codigo conducta y la 
 2. Justifica en la descripcion de la PR el por qué de tus cambios y que aporta tu PR
 3. Coloca al usuarioi @ROMthesheep como revisor
 4. Coloca la label correspondiente
+5. Todo el contenido que esta orientado a ser leido debera estar en castellano. El codigo fuente podra estar en ingles o español.
 
 # Codigo de comportamiento
 

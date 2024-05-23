@@ -30,7 +30,7 @@ Este repositorio esta pensado como un libro de consulta sobre ciertos temas refe
 
 Habra temas basicos, intermedios y avanzados catalogados por area de estudio, no por dificultad. Aunque mas adelante hay una tabla con todos los contenidos y la dificultad de cada una.
 
-Las contribuciones son bienvenidas pero porfavor seguid las normas para la contribucion <b>TODO: Poner el link a las normas de contribucion</b>
+Las contribuciones son bienvenidas pero porfavor seguid las [normas para la contribucion](CONTRIBUTING.md).
 
 <!-- Disclaimer --> 
 
