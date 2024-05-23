@@ -38,13 +38,13 @@ I am by no means a guru, enlightened being, or genius. I am a programmer with a 
 <!-- Contenidos --> 
 
 # Contents 🪄
-- [Architecture Demonstrations]()
-- [Design Patterns Catalog]()
-- [SwiftUI Recipes Catalog]()
-- [Combine Examples]()
-- [SwiftData]()
-- [MVVM and Combine Demonstration]()
-  
+- [Architecture Demonstrations](Architecture_demos/ARCHITECHTURES.md)
+- [Design Patterns Catalog](Patterns.playground/DESIGN_PATTERNS.md)
+- [SwiftUI Recipes Catalog](SwiftUI_Pills/SWIFTUI_PILLS.md)
+- [Combine Examples](Combine.playground/COMBINE_PILLS.md)
+- [SwiftData](Deep_dive_SwiftData/SWIFT_DATA.md)
+- [MVVM and Combine Demonstration](MVVM_&_combine_practice/MVVM_WITH_COMBINE.md)
+  - Shaders WIP
 
 # Sources and bibliography ⛲
 * [swiftbeta](https://www.youtube.com/c/SwiftBeta)
