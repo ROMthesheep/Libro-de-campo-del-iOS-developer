@@ -10,7 +10,7 @@ Please note that you should always respect the code of conduct and the general [
 ## Procedure
 1. Expand the markdowns if necessary, both the README and the markdown corresponding to the section(s) affected by the changes.
 2. Justify in the PR description why your changes are necessary and what your PR contributes.
-3. Assign @ROMthesheep as the reviewer.
+3. Assign [ꓤOM](https://github.com/ROMthesheep) as the reviewer.
 4. Apply the corresponding label.
 5. All the content that is intended to be read must be in Spanish. The source code can be in either English or Spanish.
 
