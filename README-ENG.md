@@ -44,7 +44,7 @@ I am by no means a guru, enlightened being, or genius. I am a programmer with a 
 - [Combine Examples](Combine.playground/COMBINE_PILLS.md)
 - [SwiftData](Deep%20dive%20SwiftData/SWIFT_DATA.md)
 - [MVVM and Combine Demonstration](MVVM%20&%20combine%20practice/MVVM_WITH_COMBINE.md)
-  - Shaders WIP
+- Shaders WIP
 
 # Sources and bibliography ⛲
 * [swiftbeta](https://www.youtube.com/c/SwiftBeta)
