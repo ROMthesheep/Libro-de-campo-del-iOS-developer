@@ -2,6 +2,9 @@
 # Libro de campo del iOS developer
 #### Pero por una vez en castellano
 
+<!-- <img align="right" src="https://avatars.githubusercontent.com/u/17766405?v=4" width="150"> --> 
+
+
 <!-- Badges --> 
 [![Platform](https://img.shields.io/badge/platform-iOS_17-6495ED.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift_5.9-6495ED.svg)]()
