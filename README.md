@@ -45,12 +45,12 @@ No soy ni mucho menos un guru, ni un iluminado, ni un genio, soy un programador 
 <!-- Contenidos --> 
 
 # Contenidos 🪄
-  - [Demostraciones arquitecturas](Architecture_demos/ARCHITECHTURES.md)
+  - [Demostraciones arquitecturas](Architecture%20demos/ARCHITECHTURES.md)
   - [Catalogo de patrones de diseño](Patterns.playground/DESIGN_PATTERNS.md)
-  - [Catalogo de recetas de SwiftUI](SwiftUI_Pills/SWIFTUI_PILLS.md)
+  - [Catalogo de recetas de SwiftUI](SwiftUI%20Pills/SWIFTUI_PILLS.md)
   - [Ejemplos Combine](Combine.playground/COMBINE_PILLS.md)
-  - [SwiftData](Deep_dive_SwiftData/SWIFT_DATA.md)
-  - [Demostracion MVVM y combine](MVVM_&_combine_practice/MVVM_WITH_COMBINE.md)
+  - [SwiftData](Deep%20dive%20SwiftData/SWIFT_DATA.md)
+  - [Demostracion MVVM y combine](MVVM%20&%20combine%20practice/MVVM_WITH_COMBINE.md)
   - Shaders WIP
   
 
