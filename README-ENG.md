@@ -8,7 +8,6 @@
 [![Platform](https://img.shields.io/badge/platform-iOS_17-6495ED.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift_5.9-6495ED.svg)]()
 [![Last Commit](https://img.shields.io/github/last-commit/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)]()
-![Lines of code](https://img.shields.io/tokei/lines/github/romthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
 [![Repo Size](https://img.shields.io/github/repo-size/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)]()
 ![License](https://img.shields.io/badge/license-MIT-6495ED.svg)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/romthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
@@ -33,7 +32,7 @@ Contributions are welcome, but please follow the [contribution guidelines](CONTR
 
 <!-- Disclaimer --> 
 
-# ☣️ Before we continue...
+# Before we continue...☣️
 I am by no means a guru, enlightened being, or genius. I am a programmer with a mix of knowledge and gaps, with strengths and weaknesses. If you notice something that is incorrect, please approach that knowledge gap with a collaborative mindset and a spirit of teaching. Twitter is the place for negativity, not here.
 
 <!-- Contenidos --> 
@@ -55,7 +54,7 @@ I am by no means a guru, enlightened being, or genius. I am a programmer with a 
 * [kamranahmedse](https://github.com/kamranahmedse/)
 * [nataliapanferova](https://github.com/nataliapanferova) Former Apple employee and one of the lead developers of SwiftUI 🐐.
 
-# 🔖 License
+# License 🔖
 This project is subject to the [MIT license](https://github.com/eleev/swiftui-new-metal-shaders/blob/master/LICENSE)
 
 # TO-DO 📝

@@ -18,7 +18,7 @@ Por favor, ten en cuenta que ante todo se debe respetar el codigo conducta y la 
 # Procedimiento
 1. Amplia los markdowns si corresponde, tanto el readme como el markdown correspondiente a la seccion o secciones afectadas por los cambios
 2. Justifica en la descripcion de la PR el por qué de tus cambios y que aporta tu PR
-3. Coloca al usuarioi @ROMthesheep como revisor
+3. Coloca al usuario [ꓤOM](https://github.com/ROMthesheep) como revisor
 4. Coloca la label correspondiente
 5. Todo el contenido que esta orientado a ser leido debera estar en castellano. El codigo fuente podra estar en ingles o español.
 
