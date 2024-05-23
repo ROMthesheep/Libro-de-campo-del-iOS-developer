@@ -2,7 +2,7 @@
 //  SimpleStackableCarousel.swift
 //  SwiftUI Pills
 //
-//  Created by Luca Lago on 20/5/24.
+//  Created by RomTheSheep on 20/5/24.
 //
 
 import SwiftUI
@@ -35,8 +35,7 @@ struct SimpleHorizontalStackableCarousel: View {
                                         .padding()
                                 })
                                 .padding(20)
-                                .containerRelativeFrame( .vertical, count: 3, span: 2, spacing: 0 )
-                                .containerRelativeFrame( .horizontal, count: 10, span: 10, spacing: 0)
+                                .containerRelativeFrame([.horizontal, .vertical])
                                 .shadow(
                                     color: .primary.opacity(0.5),
                                     radius: 12
@@ -61,7 +60,7 @@ struct SimpleHorizontalStackableCarousel: View {
         func body(content: Content) -> some View {
             content.visualEffect { fx, geometry in
                 fx
-                    .blur(radius: progress(geometry, index: index, a: true) * 5 )
+                    .blur(radius: progress(geometry) * 5 )
                     .scaleEffect(scale(geometry))
                     .offset(
                         x: minX(geometry) < 0 ? 0 : minX(geometry)
@@ -73,12 +72,8 @@ struct SimpleHorizontalStackableCarousel: View {
             min(max(1 - progress(proxy) * 0.5, 0.8), 1)
         }
         
-        private func progress(_ proxy: GeometryProxy, index: Int = 0, a:Bool = false) -> CGFloat {
-            if a {
-                print("\(index): \(min(minX(proxy) / proxy.size.width, 1))")
-            }
-            
-            return min(minX(proxy) / proxy.size.width, 1)
+        private func progress(_ proxy: GeometryProxy) -> CGFloat {
+            min(minX(proxy) / proxy.size.width, 1)
         }
         
         private func minX(_ proxy: GeometryProxy) -> CGFloat {

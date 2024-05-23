@@ -2,7 +2,7 @@
 //  StackableCarousel.swift
 //  SwiftUI Pills
 //
-//  Created by Luca Lago on 20/5/24.
+//  Created by RomTheSheep on 20/5/24.
 //
 
 import SwiftUI
@@ -37,8 +37,7 @@ struct FancyStackableCarousel: View {
                                 })
                                 .cornerRadius(mainRoundedCornerValue)
                                 .padding(10)
-                                .containerRelativeFrame( .vertical, count: 4, span: 2, spacing: 0 )
-                                .containerRelativeFrame( .horizontal, count: 10, span: 10, spacing: 0)
+                                .containerRelativeFrame([.horizontal, .vertical])
                                 .shadow(
                                     color: .primary.opacity(0.5),
                                     radius: 12
@@ -67,7 +66,7 @@ struct FancyStackableCarousel: View {
                     .rotationEffect(.degrees(progress(geometry) * (index % 2 == 0 ? -23 : 23)), anchor: .center)
                     .scaleEffect(scale(geometry))
                     .offset(
-                        x: minX(geometry) < 0 ? 0 : minX(geometry),
+                        x: minX(geometry) < 0 ? -minX(geometry) * 1.5 : minX(geometry),
                         y: minX(geometry) < 0 ? 0 : minX(geometry) / 2.5)
             }
         }

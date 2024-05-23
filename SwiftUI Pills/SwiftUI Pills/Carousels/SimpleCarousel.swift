@@ -2,7 +2,7 @@
 //  SimpleCarousel.swift
 //  SwiftUI Pills
 //
-//  Created by Luca Lago on 22/5/24.
+//  Created by RomTheSheep on 22/5/24.
 //
 
 import SwiftUI
@@ -34,8 +34,7 @@ struct SimpleCarousel: View {
                         })
                         .cornerRadius(mainRoundedCornerValue)
                         .padding(10)
-                        .containerRelativeFrame( .vertical, count: 4, span: 2, spacing: 0 )
-                        .containerRelativeFrame( .horizontal, count: 10, span: 10, spacing: 0)
+                        .containerRelativeFrame([.horizontal, .vertical])
                         .shadow(
                             color: .primary.opacity(0.5),
                             radius: 12
