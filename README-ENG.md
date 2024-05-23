@@ -8,7 +8,6 @@
 [![Platform](https://img.shields.io/badge/platform-iOS_17-6495ED.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift_5.9-6495ED.svg)]()
 [![Last Commit](https://img.shields.io/github/last-commit/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)]()
-![Lines of code](https://img.shields.io/tokei/lines/github/romthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
 [![Repo Size](https://img.shields.io/github/repo-size/ROMthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)]()
 ![License](https://img.shields.io/badge/license-MIT-6495ED.svg)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/romthesheep/Libro-de-campo-del-iOS-developer?color=6495ED)
