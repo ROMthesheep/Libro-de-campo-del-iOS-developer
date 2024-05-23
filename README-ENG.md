@@ -38,12 +38,12 @@ I am by no means a guru, enlightened being, or genius. I am a programmer with a 
 <!-- Contenidos --> 
 
 # Contents 🪄
-- [Architecture Demonstrations](Architecture_demos/ARCHITECHTURES.md)
+- [Architecture Demonstrations](Architecture%20demos/ARCHITECHTURES.md)
 - [Design Patterns Catalog](Patterns.playground/DESIGN_PATTERNS.md)
-- [SwiftUI Recipes Catalog](SwiftUI_Pills/SWIFTUI_PILLS.md)
+- [SwiftUI Recipes Catalog](SwiftUI%20Pills/SWIFTUI_PILLS.md)
 - [Combine Examples](Combine.playground/COMBINE_PILLS.md)
-- [SwiftData](Deep_dive_SwiftData/SWIFT_DATA.md)
-- [MVVM and Combine Demonstration](MVVM_&_combine_practice/MVVM_WITH_COMBINE.md)
+- [SwiftData](Deep%20dive%20SwiftData/SWIFT_DATA.md)
+- [MVVM and Combine Demonstration](MVVM%20&%20combine%20practice/MVVM_WITH_COMBINE.md)
   - Shaders WIP
 
 # Sources and bibliography ⛲
