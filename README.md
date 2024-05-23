@@ -39,7 +39,7 @@ Las contribuciones son bienvenidas pero porfavor seguid las [normas para la cont
 
 <!-- Disclaimer --> 
 
-# ☣️ Antes de continuar...
+# Antes de continuar... ☣️
 No soy ni mucho menos un guru, ni un iluminado, ni un genio, soy un programador con un bagaje de conocimientos con luces y sombras, si ves algo que esta mal, recuerda acercarte a esa laguna de conocimiento desde un lugar de colaboracion y con espiritu didactico. Para echar mierda esta twitter.
 
 <!-- Contenidos --> 
@@ -61,7 +61,7 @@ No soy ni mucho menos un guru, ni un iluminado, ni un genio, soy un programador 
 * [kamranahmedse](https://github.com/kamranahmedse/)
 * [nataliapanferova](https://github.com/nataliapanferova) ex-empleada de apple y una de las lead developers de SwiftUI 🐐.
 
-# 🔖 Licencia
+# Licencia 🔖
 Este proyecto esta sujeto a la licencia [MIT](https://github.com/eleev/swiftui-new-metal-shaders/blob/master/LICENSE)
 
 # TO-DO 📝
