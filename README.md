@@ -50,9 +50,9 @@ No soy ni mucho menos un guru, ni un iluminado, ni un genio, soy un programador 
 
 # Fuentes y bibliografia ⛲
 * [swiftbeta](https://www.youtube.com/c/SwiftBeta)
-* [AvdLee](https://github.com/AvdLee) extremadamente recomendado y no lo suelo ver mencionado, dadle amor y estrellitas.
+* [AvdLee](https://github.com/AvdLee) 
 * [refactoring guru](https://refactoring.guru/es)
-* [eleev](https://github.com/eleev)
+* [eleev](https://github.com/eleev) extremadamente recomendado y no lo suelo ver mencionado, dadle amor y estrellitas.
 * [kamranahmedse](https://github.com/kamranahmedse/)
 * [nataliapanferova](https://github.com/nataliapanferova) ex-empleada de apple y una de las lead developers de SwiftUI 🐐.
 
