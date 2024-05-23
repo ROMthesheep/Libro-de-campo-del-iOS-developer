@@ -14,6 +14,11 @@
 		581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F37382BBEAC18003D6B09 /* LoginView.swift */; };
 		581F373E2BBEAD61003D6B09 /* LoginWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */; };
 		581F37402BBEB4AB003D6B09 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */; };
+		582D5B2F2BFF3DD00000D2D3 /* ZstackBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B2E2BFF3DD00000D2D3 /* ZstackBasics.swift */; };
+		582D5B312BFF403F0000D2D3 /* VStackBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B302BFF403F0000D2D3 /* VStackBasics.swift */; };
+		582D5B332BFF43F30000D2D3 /* HStackBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B322BFF43F30000D2D3 /* HStackBasics.swift */; };
+		582D5B352BFF47540000D2D3 /* ScrollableStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B342BFF47540000D2D3 /* ScrollableStacks.swift */; };
+		582D5B372BFF48E50000D2D3 /* OverlayBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B362BFF48E50000D2D3 /* OverlayBasics.swift */; };
 		583AE9A52BFB520C0064C72B /* FancyStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */; };
 		583AE9A72BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */; };
 		583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */; };
@@ -115,6 +120,11 @@
 		581F37382BBEAC18003D6B09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		581F373D2BBEAD61003D6B09 /* LoginWebservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebservice.swift; sourceTree = "<group>"; };
 		581F373F2BBEB4AB003D6B09 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		582D5B2E2BFF3DD00000D2D3 /* ZstackBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackBasics.swift; sourceTree = "<group>"; };
+		582D5B302BFF403F0000D2D3 /* VStackBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackBasics.swift; sourceTree = "<group>"; };
+		582D5B322BFF43F30000D2D3 /* HStackBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackBasics.swift; sourceTree = "<group>"; };
+		582D5B342BFF47540000D2D3 /* ScrollableStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableStacks.swift; sourceTree = "<group>"; };
+		582D5B362BFF48E50000D2D3 /* OverlayBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayBasics.swift; sourceTree = "<group>"; };
 		583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyStackableCarousel.swift; sourceTree = "<group>"; };
 		583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHorizontalStackableCarousel.swift; sourceTree = "<group>"; };
 		583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreWrapper.swift; sourceTree = "<group>"; };
@@ -273,6 +283,27 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		582D5B2C2BFF31D00000D2D3 /* Layout adjustments */ = {
+			isa = PBXGroup;
+			children = (
+				582D5B362BFF48E50000D2D3 /* OverlayBasics.swift */,
+				582D5B2D2BFF3DA20000D2D3 /* Stacks */,
+				58E209602BA87E99006B02FF /* Grid */,
+			);
+			path = "Layout adjustments";
+			sourceTree = "<group>";
+		};
+		582D5B2D2BFF3DA20000D2D3 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				582D5B2E2BFF3DD00000D2D3 /* ZstackBasics.swift */,
+				582D5B302BFF403F0000D2D3 /* VStackBasics.swift */,
+				582D5B322BFF43F30000D2D3 /* HStackBasics.swift */,
+				582D5B342BFF47540000D2D3 /* ScrollableStacks.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
 		583AE9A32BFB50730064C72B /* Carousels */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,25 +433,25 @@
 		58E209332BA87E79006B02FF /* SwiftUI Pills */ = {
 			isa = PBXGroup;
 			children = (
+				582D5B2C2BFF31D00000D2D3 /* Layout adjustments */,
 				58E1E98F2BC3D4F600C98A44 /* Accesibility */,
 				58E209622BA87EB6006B02FF /* Animations */,
 				583AE9A32BFB50730064C72B /* Carousels */,
-				58E209362BA87E79006B02FF /* ContentView.swift */,
 				58E209642BA87ECB006B02FF /* Forms */,
 				583E9FE82BBADF2E00499644 /* Geometry */,
 				58E209672BA87F12006B02FF /* Gestures */,
-				58E209602BA87E99006B02FF /* Grid */,
 				58E209612BA87EA9006B02FF /* Image Manipulation */,
 				587B2ABF2BAD8990000DD3F3 /* Misc */,
 				58E209692BA87F2E006B02FF /* Modals */,
-				58E2093C2BA87E7B006B02FF /* Preview Content */,
 				58E7D9C32BB1C5B9005C0406 /* screen POCS */,
 				58E209632BA87EBE006B02FF /* Shaders */,
 				58E209652BA87EDC006B02FF /* State and Binding */,
+				58E209362BA87E79006B02FF /* ContentView.swift */,
 				58E209342BA87E79006B02FF /* SwiftUI_PillsApp.swift */,
 				58E209382BA87E79006B02FF /* Item.swift */,
 				583E9FE12BBABCD600499644 /* SwiftUI-Pills-Info.plist */,
 				58E2093A2BA87E7B006B02FF /* Assets.xcassets */,
+				58E2093C2BA87E7B006B02FF /* Preview Content */,
 			);
 			path = "SwiftUI Pills";
 			sourceTree = "<group>";
@@ -735,9 +766,11 @@
 				586D48352BB22A740081061E /* ArticleViewModel.swift in Sources */,
 				58E7D9D22BB1CFDB005C0406 /* StockAppMainView.swift in Sources */,
 				58E1E9872BC3C7C900C98A44 /* PullToRefresh.swift in Sources */,
+				582D5B372BFF48E50000D2D3 /* OverlayBasics.swift in Sources */,
 				5849DFC62BAADBC600C17051 /* Tap.swift in Sources */,
 				58E1E98E2BC3D21F00C98A44 /* SwipeActions.swift in Sources */,
 				58BBD7502BB1E75800403307 /* SearchView.swift in Sources */,
+				582D5B332BFF43F30000D2D3 /* HStackBasics.swift in Sources */,
 				58E7D9C72BB1C7E3005C0406 /* StocksWebservice.swift in Sources */,
 				5852022F2BB43EA3004D67CC /* PinnedViewGrid.swift in Sources */,
 				58E1E98A2BC3CD8600C98A44 /* TimelineView.swift in Sources */,
@@ -746,6 +779,7 @@
 				5849DFC82BAAE0C500C17051 /* Drag.swift in Sources */,
 				585202292BB42756004D67CC /* ColorPicker.swift in Sources */,
 				5849DFCA2BAAE14E00C17051 /* ColorView.swift in Sources */,
+				582D5B312BFF403F0000D2D3 /* VStackBasics.swift in Sources */,
 				5849DFD82BAB3DE500C17051 /* Comunication between modal and host.swift in Sources */,
 				58BBD7522BB1F4E300403307 /* StockListView.swift in Sources */,
 				583AE9A52BFB520C0064C72B /* FancyStackableCarousel.swift in Sources */,
@@ -756,6 +790,7 @@
 				58E1E98C2BC3D00200C98A44 /* SearchableView.swift in Sources */,
 				58E209392BA87E79006B02FF /* Item.swift in Sources */,
 				58FECBAB2BBC49FE007F48B7 /* CreditCard.swift in Sources */,
+				582D5B2F2BFF3DD00000D2D3 /* ZstackBasics.swift in Sources */,
 				58E209722BA89930006B02FF /* Enviroment Example.swift in Sources */,
 				581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */,
 				583E9FDE2BBAB7BA00499644 /* MovieStore.swift in Sources */,
@@ -778,6 +813,7 @@
 				5849DFD22BAAFA4F00C17051 /* Eventform.swift in Sources */,
 				583E9FE52BBAC65B00499644 /* URLImage.swift in Sources */,
 				58E7D9CF2BB1CA5A005C0406 /* StockViewModel.swift in Sources */,
+				582D5B352BFF47540000D2D3 /* ScrollableStacks.swift in Sources */,
 				587B2AC32BADB122000DD3F3 /* SearchInList.swift in Sources */,
 				58E1E9A42BC3F6D600C98A44 /* GroupingViews.swift in Sources */,
 				58FECBA42BBC20CE007F48B7 /* HideSentitiveData - Redacted.swift in Sources */,

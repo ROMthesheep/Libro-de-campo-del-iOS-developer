@@ -13,7 +13,7 @@ fileprivate struct DragView: View {
     var body: some View {
         ColorView(gestureRecived: tapped)
             .animation(.spring, value: dragState)
-            .offset(y:dragState.height)
+            .offset(x: dragState.width, y:dragState.height)
             .gesture(DragGesture()
                 .onChanged{ value in
                     dragState = value.translation

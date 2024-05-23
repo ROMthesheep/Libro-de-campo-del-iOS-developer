@@ -40,9 +40,7 @@ struct SimpleMatchedGeometry: View {
                     Circle()
                         .fill(Color.green)
                         .matchedGeometryEffect(id: "bolas", in: ns)
-                    
                 }
-                
                 Circle()
                     .fill(Color.red)
                     .frame(width: 50, height: 50)
