@@ -1,0 +1,32 @@
+# Catalogo de patrones de diseño
+
+### Comportamiento:
+- [Chain of responsability](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Chain%20of%20responsability.xcplaygroundpage/Contents.swift)
+- [Command](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Command.xcplaygroundpage/Contents.swift)
+- [Interpreter](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Interpreter.xcplaygroundpage/Contents.swift)
+- [Iterator](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Iterator.xcplaygroundpage/Contents.swift)
+- [Mediator](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Mediator.xcplaygroundpage/Contents.swift)
+- [Memento](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Memento.xcplaygroundpage/Contents.swift)
+- [Observer](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Observer.xcplaygroundpage/Contents.swift)
+- [Rule engine](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20RuleEngine.xcplaygroundpage/Contents.swift)
+- [Strategy](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Comportamiento%20--%20Strategy.xcplaygroundpage/Contents.swift)
+### Creacionales:
+- [Builder](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Builder.xcplaygroundpage/Contents.swift)
+- [Factory](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Factory.xcplaygroundpage/Contents.swift)
+- [Guided Singleton](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Guided%20Singleton.xcplaygroundpage/Contents.swift)
+- [Dependency injection](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Inyeccion%20de%20dependencias.xcplaygroundpage/Contents.swift)
+- [Object pool](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Object%20Pool.xcplaygroundpage/Contents.swift)
+- [Prototype](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Prototype.xcplaygroundpage/Contents.swift)
+- [Singleton](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Creacionales%20--%20Singleton.xcplaygroundpage/Contents.swift)
+- [Abstract factory](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/tree/main/Patterns.playground/Pages/Creacionales%20--%20abstract%20factory.xcplaygroundpage)
+### Estructurales
+- [Adapter](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Adapter.xcplaygroundpage/Contents.swift)
+- [Bridge](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Bridge.xcplaygroundpage/Contents.swift)
+- [Composite](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Composite.xcplaygroundpage/Contents.swift)
+- [Coordinator](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Coordinator.xcplaygroundpage/Contents.swift)
+- [Decorator](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Decorator%20-%20Wrapper.xcplaygroundpage/Contents.swift)
+- [Facade](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Facade.xcplaygroundpage/Contents.swift)
+- [Flyweight](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Flyweight.xcplaygroundpage/Contents.swift)
+- [Multicast delegate](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Multicast%20Delegate.xcplaygroundpage/Contents.swift)
+- [Proxy](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20Proxy.xcplaygroundpage/Contents.swift)
+- [type ensure](https://github.com/ROMthesheep/Libro-de-campo-del-iOS-developer/blob/main/Patterns.playground/Pages/Estructurales%20--%20TypeEnsure.xcplaygroundpage/Contents.swift)
