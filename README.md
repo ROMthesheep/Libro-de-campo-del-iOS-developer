@@ -45,6 +45,7 @@ No soy ni mucho menos un guru, ni un iluminado, ni un genio, soy un programador 
 <!-- Contenidos --> 
 
 # Contenidos 🪄
+Aun se esta trabajando en las explicaciones de cada seccion👷
   - [Demostraciones arquitecturas](Architecture%20demos/ARCHITECHTURES.md)
   - [Catalogo de patrones de diseño](Patterns.playground/DESIGN_PATTERNS.md)
   - [Catalogo de recetas de SwiftUI](SwiftUI%20Pills/SWIFTUI_PILLS.md)
