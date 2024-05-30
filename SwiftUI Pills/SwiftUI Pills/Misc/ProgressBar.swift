@@ -32,6 +32,7 @@ struct ProgressBar: View {
                 }
             }
         }
+        .padding()
     }
 }
 

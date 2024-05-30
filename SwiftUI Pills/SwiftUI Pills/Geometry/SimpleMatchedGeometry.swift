@@ -26,10 +26,7 @@ struct SimpleMatchedGeometry: View {
                     isSwitched.toggle()
                 }
             }
-    
-            
             Spacer()
-            
             VStack {
                 
                 Circle()
