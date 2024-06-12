@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5803CDF62BBD64C20021B991 /* BankDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5803CDF52BBD64C20021B991 /* BankDashboard.swift */; };
+		5804F4DF2C18ADC500D03CE0 /* MeshGradientWaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5804F4DE2C18ADC500D03CE0 /* MeshGradientWaveAnimation.swift */; };
+		5804F4E12C19824100D03CE0 /* MeshGradientWaveDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5804F4E02C19824100D03CE0 /* MeshGradientWaveDragGesture.swift */; };
 		581BF0AF2BBFFE14007283DC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0AE2BBFFE14007283DC /* Account.swift */; };
 		581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BF0B02BC00272007283DC /* AccountListViewModel.swift */; };
 		581BF0B42BC01061007283DC /* Server.js in Resources */ = {isa = PBXBuildFile; fileRef = 581BF0B32BC01061007283DC /* Server.js */; };
@@ -19,6 +21,8 @@
 		582D5B332BFF43F30000D2D3 /* HStackBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B322BFF43F30000D2D3 /* HStackBasics.swift */; };
 		582D5B352BFF47540000D2D3 /* ScrollableStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B342BFF47540000D2D3 /* ScrollableStacks.swift */; };
 		582D5B372BFF48E50000D2D3 /* OverlayBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D5B362BFF48E50000D2D3 /* OverlayBasics.swift */; };
+		5836A4CB2C18738F005A8954 /* MeshGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5836A4CA2C18738F005A8954 /* MeshGradientAnimation.swift */; };
+		583711312C0872B700E20EC2 /* symbol animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583711302C0872B700E20EC2 /* symbol animation.swift */; };
 		583AE9A52BFB520C0064C72B /* FancyStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */; };
 		583AE9A72BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */; };
 		583E9FD42BBAA26500499644 /* AppStoreWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */; };
@@ -114,6 +118,8 @@
 
 /* Begin PBXFileReference section */
 		5803CDF52BBD64C20021B991 /* BankDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDashboard.swift; sourceTree = "<group>"; };
+		5804F4DE2C18ADC500D03CE0 /* MeshGradientWaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientWaveAnimation.swift; sourceTree = "<group>"; };
+		5804F4E02C19824100D03CE0 /* MeshGradientWaveDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientWaveDragGesture.swift; sourceTree = "<group>"; };
 		581BF0AE2BBFFE14007283DC /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		581BF0B02BC00272007283DC /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
 		581BF0B32BC01061007283DC /* Server.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Server.js; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 		582D5B322BFF43F30000D2D3 /* HStackBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackBasics.swift; sourceTree = "<group>"; };
 		582D5B342BFF47540000D2D3 /* ScrollableStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableStacks.swift; sourceTree = "<group>"; };
 		582D5B362BFF48E50000D2D3 /* OverlayBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayBasics.swift; sourceTree = "<group>"; };
+		5836A4CA2C18738F005A8954 /* MeshGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientAnimation.swift; sourceTree = "<group>"; };
+		583711302C0872B700E20EC2 /* symbol animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "symbol animation.swift"; sourceTree = "<group>"; };
 		583AE9A42BFB520C0064C72B /* FancyStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyStackableCarousel.swift; sourceTree = "<group>"; };
 		583AE9A62BFB69BE0064C72B /* SimpleHorizontalStackableCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHorizontalStackableCarousel.swift; sourceTree = "<group>"; };
 		583E9FD32BBAA26500499644 /* AppStoreWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreWrapper.swift; sourceTree = "<group>"; };
@@ -332,6 +340,9 @@
 			children = (
 				58FECBA12BBC0832007F48B7 /* MusicPlayerEffect.swift */,
 				58FECB9F2BBBFECA007F48B7 /* SimpleMatchedGeometry.swift */,
+				5836A4CA2C18738F005A8954 /* MeshGradientAnimation.swift */,
+				5804F4DE2C18ADC500D03CE0 /* MeshGradientWaveAnimation.swift */,
+				5804F4E02C19824100D03CE0 /* MeshGradientWaveDragGesture.swift */,
 			);
 			path = Geometry;
 			sourceTree = "<group>";
@@ -505,6 +516,7 @@
 				58E7D9C12BB1C391005C0406 /* CombiningAnimations.swift */,
 				58E7D9BF2BB1B971005C0406 /* NotificationAnimation.swift */,
 				58E7D9BD2BB1B720005C0406 /* SpringAnimation.swift */,
+				583711302C0872B700E20EC2 /* symbol animation.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -770,6 +782,7 @@
 				5849DFC62BAADBC600C17051 /* Tap.swift in Sources */,
 				58E1E98E2BC3D21F00C98A44 /* SwipeActions.swift in Sources */,
 				58BBD7502BB1E75800403307 /* SearchView.swift in Sources */,
+				5836A4CB2C18738F005A8954 /* MeshGradientAnimation.swift in Sources */,
 				582D5B332BFF43F30000D2D3 /* HStackBasics.swift in Sources */,
 				58E7D9C72BB1C7E3005C0406 /* StocksWebservice.swift in Sources */,
 				5852022F2BB43EA3004D67CC /* PinnedViewGrid.swift in Sources */,
@@ -779,6 +792,7 @@
 				5849DFC82BAAE0C500C17051 /* Drag.swift in Sources */,
 				585202292BB42756004D67CC /* ColorPicker.swift in Sources */,
 				5849DFCA2BAAE14E00C17051 /* ColorView.swift in Sources */,
+				5804F4DF2C18ADC500D03CE0 /* MeshGradientWaveAnimation.swift in Sources */,
 				582D5B312BFF403F0000D2D3 /* VStackBasics.swift in Sources */,
 				5849DFD82BAB3DE500C17051 /* Comunication between modal and host.swift in Sources */,
 				58BBD7522BB1F4E300403307 /* StockListView.swift in Sources */,
@@ -795,6 +809,7 @@
 				581F37392BBEAC18003D6B09 /* LoginView.swift in Sources */,
 				583E9FDE2BBAB7BA00499644 /* MovieStore.swift in Sources */,
 				58E7D9542BB17649005C0406 /* Custom line graph.swift in Sources */,
+				583711312C0872B700E20EC2 /* symbol animation.swift in Sources */,
 				5849DFD62BAB39BA00C17051 /* SimpleModal.swift in Sources */,
 				58E1E9932BC3DB2D00C98A44 /* ReadingOrder.swift in Sources */,
 				587B2AC12BAD89AB000DD3F3 /* Pull Image From camera.swift in Sources */,
@@ -839,6 +854,7 @@
 				58E1E9A12BC3EDCA00C98A44 /* FilmSearchMainView.swift in Sources */,
 				5849DFCC2BAAE36200C17051 /* Magnify.swift in Sources */,
 				585202272BB4249C004D67CC /* Map.swift in Sources */,
+				5804F4E12C19824100D03CE0 /* MeshGradientWaveDragGesture.swift in Sources */,
 				581BF0B12BC00272007283DC /* AccountListViewModel.swift in Sources */,
 				58E209352BA87E79006B02FF /* SwiftUI_PillsApp.swift in Sources */,
 			);
