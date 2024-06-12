@@ -29,6 +29,7 @@ struct MeshGradientAnimation: View {
                         .orange, .cyan, .blue,
                         .yellow, .green, .mint
                     ])
+                .animation(.default, value: increment)
             } else {
                 // Fallback on earlier versions
             }
